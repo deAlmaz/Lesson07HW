@@ -6,17 +6,10 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
-div{
-    /*text-align: center;*/
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content: center;*/
-}
 header{
     justify-content: center;
     height: 53px;
     width: 1200px;
-    min-width: 1200px;
     margin: 30px 30px 12px 30px;
     border-bottom: 0.3px solid #46A35880;
 }
@@ -26,7 +19,6 @@ header{
 .header-wrapper{
     margin: auto;
     width: 1200px;
-    min-width: 1200px;
     justify-content: center;
     text-align: center;
 }
@@ -55,7 +47,6 @@ header{
 main{
     justify-content: start;
     width: 1200px;
-    min-width: 1200px;
     height: 450px;
     margin: 0px 30px 0px 30px;
     background-color: #F5F5F580;
@@ -300,8 +291,6 @@ div.float-block-R{
     position: relative;
     width: 258px;
     height: 350px;
-    max-width: 258px;
-    max-height: 350px;
     cursor: pointer;
 }
 .plant-item-container:hover{
@@ -309,9 +298,7 @@ div.float-block-R{
 }
 .plant-image-container{
     width: 258px;
-    max-width: 258px;
     height: 300px;
-    max-height: 300px;
     background-color: #FBFBFB;
     display: flex;
     align-items: center;
@@ -321,7 +308,6 @@ div.float-block-R{
     bottom: 0;
     left: 0;
     width: 258px;
-    max-width: 258px;
 }
 .plant-text-style{
     font-weight: 400;
